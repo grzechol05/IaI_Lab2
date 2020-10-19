@@ -1,2 +1,6 @@
-body { background-color: green; }
-nav ul li { display: inline; }
+body {
+    background-color: yellow;
+}
+nav ul li {
+    display: inline;
+}
