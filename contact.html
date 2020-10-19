@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Quiz</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+    <label>Uzupełnij dane:</label><br/>
+
+<form>
+    <div class="form-group">
+        <label for="imie">Imię:</label><br/>
+        <input type="text" name="imie" id="imie" placeholder="Podaj imie"><br/>
+        <label for="nazwisko">Nazwisko:</label><br/>
+        <input type="text" name="nazwisko" id="nazwisko" placeholder="Podaj nazwisko"><br/>
+        <label for="email">E-mail:</label><br/>
+        <input type="email" name="email" id="email" placeholder="Podaj e-mail"><br/>
+    </div>
+    <div class="form-group">
+        <label>Płeć:</label><br/>
+        <input type="radio" name="plec" value="mezczyzna" checked> Mężczyzna
+        <input type="radio" name="plec" value="kobieta" checked> Kobieta
+    </div>
+    <div class="form-group">
+        <label for="opis">Opis:</label><br/>
+        <textarea rows="4" cols="30" id="opis" ></textarea>
+    </div>
+    <div class="form-group">
+        <label for="wiek">Wiek:</label><br/>
+        <input type="number" name="wiek" value="18" id="wiek">
+    </div>
+    <div class="form-group">
+        <label>Stan cywilny:</label><br/>
+        <select>
+            <option value="wartość1">Panna/Kawaler</option>
+            <option value="wartość2">Zamężna/Żonaty</option>
+            <option value="wartość3">Wdowa/Wdowiec</option>
+            <option value="wartość4">Rozwiedziona/Rozwiedziony</option>
+            <option value="wartość5">Separowana/Separowany</option>
+        </select>
+    </div>
+            <button type="reset">Wyczyść</button>
+        <form action="akcja=wysylanie" method="post">
+            <button type="submit">Wyślij</button>
+        </form>
+</form>
+</body>
+</html>
