@@ -1,10 +1,15 @@
 body {
-    background-color: yellow;
+     background-color: yellow;
 }
 nav ul li {
-    display: inline;
+          display: inline;
 }
 img {
     width: 200px;
     height: 200px;
+}
+a:hover {
+        background-color: blue;
+        color: red;
+        transition: all 1s;
 }
